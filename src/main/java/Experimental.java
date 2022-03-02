@@ -1,15 +1,15 @@
 import javax.swing.*;
 
-public class HelloWorld extends JFrame {
-    private JPanel panel1;
+public class Experimental extends JFrame {
     private JLabel lblMensagem;
+    private JPanel panel1;
 
-    public HelloWorld(){
+    public Experimental(){
         setContentPane(panel1);
         pack();
     }
-    public static void main(String[] args) {
-        new HelloWorld().setVisible(true);
-    }
 
+    public static void main(String[] args) {
+        new Experimental().setVisible(true);
+    }
 }
