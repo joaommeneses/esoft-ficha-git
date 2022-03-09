@@ -3,9 +3,12 @@ import javax.swing.*;
 public class HelloWorld extends JFrame {
     private JPanel panel1;
     private JLabel lblMensagem;
-    private JLabel lblMensagem2;
 
     public HelloWorld(){
+        panel1 = new JPanel();
+        JLabel lblAdicional = new JLabel();
+        lblAdicional.setText("O Edgar esteve aqui!");
+        panel1.add(lblAdicional);
         setContentPane(panel1);
         pack();
     }
